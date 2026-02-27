@@ -33,9 +33,6 @@ export function Presentation({ slides }) {
 
             {/* Logo */}
             <div className="absolute top-8 left-8 z-50">
-                <img src={`${import.meta.env.BASE_URL}megaminds-white.png`} alt="Megaminds Logo" className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity" />
-            </div>
-            <div className="absolute top-8 left-8 z-50">
                 <img src="/megaminds-white.png" alt="Megaminds Logo" className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity" />
             </div>
 
